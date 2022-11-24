@@ -1,6 +1,6 @@
-const API = 'http://localhost:3000/dates'
-const API2 = 'http://localhost:3000/dates/user'
-const API3 = 'http://localhost:3000/datesbyfecha'
+const API = 'http://192.168.0.31:3000/dates'
+const API2 = 'http://192.168.0.31:3000/dates/user'
+const API3 = 'http://192.168.0.31:3000/datesbyfecha'
 
 export const getDates = async () => {
     const res = await fetch(API); 

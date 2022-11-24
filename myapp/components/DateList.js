@@ -1,11 +1,12 @@
 import React, {useEffect, useState} from 'react'
-import { FlatList, RefreshControl, TextInput, StyleSheet, TouchableOpacity,Text} from 'react-native'
+import { FlatList, RefreshControl, TextInput, StyleSheet, TouchableOpacity, Text, View} from 'react-native'
 import {useIsFocused} from '@react-navigation/native'
 
 import DateItem from './DateItem'
 import { getDates , deleteDate, getDateByDate } from '../api'
 import Layout from './Layout'
-import { View } from 'react-native-web'
+
+//mport { View } from 'react-native-web'
 
 
 const DateList = () => {
